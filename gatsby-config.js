@@ -3,8 +3,9 @@ require(`dotenv`).config({
 })
 
 module.exports = {
+  pathPrefix: "/portfolio",
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Pawel Zawada - Programmer`,
   },
   plugins: [
     {
